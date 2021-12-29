@@ -9,4 +9,3 @@ Example Mojo -role (uses Role::Tiny)
 `main-with_in_class.pl`
 
 - Declare inside the package with 'with' which role to use/add
-- 
