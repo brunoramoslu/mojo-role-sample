@@ -11,6 +11,6 @@ use lib "$FindBin::Bin/with_in_class/lib";
 
 use Person;
 
-my $actor = Person->new(name => 'John Doe');
+my $person = Person->new(name => 'John Doe');
 
-$actor->talk;
+$person->talk;

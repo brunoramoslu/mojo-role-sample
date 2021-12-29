@@ -11,6 +11,6 @@ use lib "$FindBin::Bin/with_roles_new/lib";
 
 use Person;
 
-my $actor = Person->with_roles('+Talk')->new(name => 'John Doe');
+my $person = Person->with_roles('+Talk')->new(name => 'John Doe');
 
-$actor->talk;
+$person->talk;
